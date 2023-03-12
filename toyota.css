@@ -1,0 +1,173 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    margin-top: 100px;
+    background-color: white;
+    border: 1px solid white;
+    /* color: red; */
+}
+.header h2 {
+    background-color: white;
+    color: red;
+
+}
+.card{
+    margin-bottom: -10px;
+    height: 117px;
+
+}
+.navabr ul {
+    display: flex;
+    gap: 30px;
+    font-weight: bold;
+}
+.navabr ul li{
+    list-style: none;
+}
+.picture{
+    margin-top: 5%;
+}
+.picture img{
+    width: 100%;
+}
+
+.num:hover{
+    color: gray;
+    opacity: 0.7;
+
+}
+.content{
+    padding: 20px;
+    position: relative;
+    top: -183px;
+
+    /* display: flex; */
+    /* flex-direction: column-reverse; */
+}
+.content button{
+    background-color:red;
+    color: white;
+    padding: 10px 10px;
+}
+.content p{
+    color: white;
+}
+.content h2{
+    color: white;
+}
+.numeric{
+    margin-top: -158px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    /* display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows:50% 50% ;
+    justify-content: center; */
+}
+.myname{
+    padding: 10px 50px;
+    font-size: 50%;
+}
+.myname p{
+    padding: 10% 10%;
+    font-size: 50%;
+}
+.myname:hover{
+    color: red;
+}
+.mylastname:hover{
+    color: darkgray;
+    opacity: 0.7;
+
+
+}
+.parameter{
+    padding: 20px;
+    position: relative;
+    top: -183px;
+
+}
+.parameter button {
+    color: white;
+    background-color: rebeccapurple;
+}
+.parameter p{
+    color: white;
+}
+.parameter h2{
+    color: white;
+}
+.local img{
+    width: 100%;
+    height: 100%;
+}
+.localAREA{
+    padding: 20px;
+    position: relative;
+    top: -183px;
+}
+.localAREA button{
+    color: red;
+
+}
+.localAREA p {
+    color: black;
+    /* z-index: ; */
+
+}
+.localAREA h2{
+    color: white;
+}
+.lunch{
+    display: flex;
+}
+.toyota{
+    display: flex;
+    padding: 50px;
+    margin-left: -48px;
+}
+.toyota img{
+    height: 50%;
+}
+.toyota h6 {
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 10px; */
+    /* padding: 50px; */
+    padding: 150px;
+    display: block;
+    margin: -67px;
+    position: relative;
+    /* left: 200px; */
+    top: -51px;
+    right: 195px;
+    flex-direction: column;
+}
+.toyota p {
+    margin: 10px 20px;
+}
+.toyota h1{
+    font-weight: bold;
+    
+}
+.lunch button{
+    /* padding-left: 10px;p */
+    position: relative;
+    left: -606px;
+}
+.lunch h2{
+    padding: 0 60px;
+    font-size: 50px;
+}
+.pakistan{
+    border: 10px solid white;
+}
